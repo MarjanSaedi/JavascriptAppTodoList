@@ -1,0 +1,77 @@
+
+
+body{
+    background: linear-gradient(to right, #00C9FF, #92FE9D);
+    font-family: 'Roboto' ;
+}
+
+/*content classes*/
+.topImg{
+    display: block;
+    margin: 1rem auto;
+}
+
+.input-container{
+    display: flex;
+    width: 50%;
+    margin: 1rem auto;
+    gap: 0.4rem;
+}
+
+.input-container input{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.input-container button{
+    padding: 1rem;
+    border: none;
+    background: #00C9FF;
+    color: #fff;
+    cursor: pointer;
+}
+ .todo-list{
+    margin: 1rem auto;
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid #00C9FF;
+    border-radius: 0.5rem;
+    min-height: 400px;
+ }
+
+ .todo-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ .todo-li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+ }
+
+ .todo-li label{
+    flex-grow: 1;
+    cursor: pointer;
+ }
+
+ .todo-li button{
+    padding: 0.5rem;
+    border: none;
+    background: #ff1900;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+ }
+
+ .checked{
+    text-decoration: line-through;
+ }
